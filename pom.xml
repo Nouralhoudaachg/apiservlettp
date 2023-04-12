@@ -7,15 +7,16 @@
   <version>1.0-SNAPSHOT</version>
   <name>tpbankati_web Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <properties> <maven.compiler.target>19 </maven.compiler.target>
-  <mavenn.compiler.source> 19</mavenn.compiler.source>
+  <properties>
+    <maven.compiler.target>19 </maven.compiler.target>
+  <maven.compiler.source> 19</maven.compiler.source>
     <project.build.sourceEncoding> UTF-8</project.build.sourceEncoding>
   </properties>
 
   <dependencies>
 
     <dependency>
-      <groupId>org.appache.tomcat.embed</groupId>
+      <groupId>org.apache.tomcat.embed</groupId>
       <artifactId>tomcat-embed-core</artifactId>
       <version>10.1.7</version>
     </dependency>
@@ -27,28 +28,8 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-      <groupId>com.github.911992</groupId>
-      <artifactId>WebSocket_HandshakeRequest_to_Servlet31_HttpServletRequest_Wrapper</artifactId>
-      <version>0.1.0</version>
-    </dependency>
-    <dependency>
-      <groupId>com.github.roughy.http.util</groupId>
-      <artifactId>HttpServletRequestX</artifactId>
-      <version>0.1</version>
-    </dependency>
   </dependencies>
   <build>
     <finalName>tpbankati_web</finalName>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-          <source>15</source>
-          <target>15</target>
-        </configuration>
-      </plugin>
-    </plugins>
   </build>
 </project>

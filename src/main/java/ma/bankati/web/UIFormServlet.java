@@ -14,7 +14,7 @@ import java.io.PrintWriter;
 public class UIFormServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-      response.setContentType("text/plain");
+    /*  response.setContentType("text/plain");
 
 
         PrintWriter out =response.getWriter();
@@ -30,8 +30,8 @@ public class UIFormServlet extends HttpServlet {
                     out.print(" a écrit:");
                     out.println(request.getParameter("textarea"));
 
-
-                  //  request.getRequestDispatcher("response.jsp").forward(request,response);
+*/
+                    request.getRequestDispatcher("reponse.jsp").forward(request,response);
 
 
     }

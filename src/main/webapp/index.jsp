@@ -17,7 +17,7 @@
 <form name="form1" method="get" action="form">
     <p class="bold">
         Nom: <input type="text" name="nom">
-        Prenom:<input> type="text" name="prenom">
+        Prenom:<input type="text" name="prenom">
 
     </p>
     <p>

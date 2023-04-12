@@ -30,7 +30,7 @@ public class SecondServelet  extends HttpServlet{
         page +="<li> Serveur:"+request.getServerName() +"</li>";
         page+="<li> Port:"+request.getServerPort() +"</li>";
         page +="<li> Methode:"+request.getMethod() +"</li>";
-        page +=""";
+        page +="""
                                   </ul>
                    </body>    
                 
